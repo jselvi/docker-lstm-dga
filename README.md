@@ -1,4 +1,4 @@
-Docker image for the paper: Selvi, J., Rodríguez, R. J., &amp; Soria-Olivas, E. (2021). Detection of Algorithmically Generated Domain Names using LSTM Neural Networks. Pending publication.
+Docker image for the paper: Selvi, J., Rodríguez, R. J., &amp; Soria-Olivas, E. (2021). Detection of Algorithmically Generated Domain Names using LSTM Neural Networks. Under Evaluation.
 
 The image has been uploaded to docker hub, so you can run it from there:
 ```
@@ -6,9 +6,9 @@ docker run -ti -p 8888:8888 jselvi/docker-lstm-dga
 ```
 
 Then visit the link refereced in the container output. There are three notebooks that you can use:
-* 01_Training.ipynb: It is the code for the training phase. We have included a pre-trained model that already provide good results, but you can use this notebook to generate your own. Please keep in mind that takes hours and many attempts to create a model as good as the one provided, given that the initial configuration of weights is random.
-* 02_Evaluation.ipynb: It shows the evaluation of the model we proposed in our paper.
-* 03_Prediction.ipynb: It is a piece of code to experiment with the model and try your own domain names manually.
+* __01_Training.ipynb__: It is the code for the training phase. We have included a pre-trained model that already provide good results, but you can use this notebook to generate your own. Please keep in mind that takes hours and many attempts to create a model as good as the one provided, given that the initial configuration of weights is random.
+* __02_Evaluation.ipynb__: It shows the evaluation of the model we proposed in our paper.
+* __03_Prediction.ipynb__: It is a piece of code to experiment with the model and try your own domain names manually.
 
 The evaluation of our proposed model should have the following results:
 ```
