@@ -7,3 +7,4 @@ scikit-learn==0.24.1
 scipy==1.5.4
 sklearn==0.0
 tensorflow==2.4.1
+lime==0.2.0.1
